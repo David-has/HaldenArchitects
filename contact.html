@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact – Halden Architects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header data-header></header>
+<main>
+<section><div class="wrap">
+<h2>Tell us about your project.</h2>
+<p class="sub">A few lines are enough. We reply within two working days.</p>
+<div class="two" style="margin-top:48px">
+<form id="cf" novalidate>
+<label for="cn">Your name<input id="cn" autocomplete="name"></label>
+<label for="ce">Email<input id="ce" type="email" autocomplete="email"></label>
+<label for="ct">Type of project<select id="ct"><option>Housing</option><option>Culture</option><option>Workplace</option><option>Education</option><option>Something else</option></select></label>
+<label for="cm">About the project<textarea id="cm"></textarea></label>
+<div class="err" id="er" aria-live="polite"></div>
+<div><button class="btn" type="submit">Send message</button></div>
+</form>
+<dl class="info" style="margin:0">
+<dt>Email</dt><dd>studio@halden.example</dd>
+<dt>Phone</dt><dd>+00 123 456 789</dd>
+<dt>Studio</dt><dd>14 Quay Street<br>Open Monday to Friday, 9 to 6</dd>
+<dt>Press and careers</dt><dd>hello@halden.example</dd>
+</dl>
+</div></div></section>
+</main>
+<footer data-footer></footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
